@@ -1,0 +1,4 @@
+asyncpg==0.24.0
+python-environ==0.4.54
+quart==0.15.1
+sqlalchemy==1.4.23
