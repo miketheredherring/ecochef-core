@@ -19,7 +19,7 @@ engine = create_async_engine(
     },
     echo=DEBUG
 )
-AsyncSession = sessionmaker(engine, class_=AsyncSession)
+async_session = sessionmaker(engine, class_=AsyncSession)
 
 async def build(confirm=False):
     '''Build all tables and indexes for database.
